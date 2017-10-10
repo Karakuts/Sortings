@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{75666DD4-76ED-4F17-91CE-2C441F3124FF}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Sortings</RootNamespace>
-    <AssemblyName>Sortings</AssemblyName>
+    <RootNamespace>SortingsProject</RootNamespace>
+    <AssemblyName>SortingsProject</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,6 +44,14 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sortings\BubbleSorting.cs" />
+    <Compile Include="Sortings\ISorting.cs" />
+    <Compile Include="Sortings\Print\ConsolePrinterGraphSorting.cs" />
+    <Compile Include="Sortings\Print\ConsolePrinterSorting.cs" />
+    <Compile Include="Sortings\Print\IPrint.cs" />
+    <Compile Include="Sortings\ShakerSorting.cs" />
+    <Compile Include="Sortings\Swap\ISwap.cs" />
+    <Compile Include="Sortings\Swap\SwapSorting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
