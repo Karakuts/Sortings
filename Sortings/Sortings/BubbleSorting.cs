@@ -46,7 +46,6 @@ namespace SortingsProject.Sortings
     {
       Swaper.Swap(ref first, ref second);
     }
-
     public void Print(int[] param)
     {
       Printer.Print(param);
